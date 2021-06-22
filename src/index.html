@@ -1,15 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Power Plant</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="PlantLesson.js"></script>
+  <title>Grow Your Plant</title>
 </head>
 
 <body>
-
+  <div class="container">
+    <div class="grow-buttons">
+      <h2>Plant One</h2>
+      <button class="btn-success" id="feed">Add soil</button>
+      <button class="btn-success" id="superHydrate">Add Water</button>
+      <button class="btn-success" id="solarPower">Add Light</button>
+      <button class="btn-success" id="show-state">Current Stats</button>
+      <h2>Plant Two</h2>
+      <button class="btn-success" id="feed2">Add soil</button>
+      <button class="btn-success" id="superHydrate2">Add Water</button>
+      <button class="btn-success" id="solarPower2">Add Light</button>
+      <button class="btn-success" id="show-state2">Current Stats</button>
+    </div>
+    <h1>Plant One Values</h1>
+    <h3>
+      <div id="soil-value">0</div>
+      <div id="water-value">0</div>
+      <div id="light-value">0</div>
+    </h3>
+    <h1>Plant Two Values</h1>
+    <h3>
+      <div id="soil-value2">0</div>
+      <div id="water-value2">0</div>
+      <div id="light-value2">0</div>
+    </h3>
+  </div>
 </body>
 
 </html>
